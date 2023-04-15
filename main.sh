@@ -65,7 +65,7 @@ echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
 echo -e "$RED                      PERMISSION DENIED"$NC
 echo -e "                      Autoscript By ( Ghafoor Ali )
-echo -e "                    CONTACT TELEGRAM"$t.me/ghafoorali
+echo -e "                    CONTACT TELEGRAM t.me/ghafoorali
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                       Enter To Exit!                    "$NC
 echo -e "$green.........................................................."$NC
@@ -107,8 +107,8 @@ CITY=$(curl -s ipinfo.io/city)
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 TIMES="10"
-CHATID="-1001956940889"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="-1948196603"
+KEY="5497011182:AAFsiX61sMXvxnMcywBQNqUGd7tRzxg5gnA"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 REPO="https://raw.githubusercontent.com/ghafoorali176/abc/ipuk/"
 CDNF="https://raw.githubusercontent.com/ghafoorali176/abc/ipuk"

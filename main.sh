@@ -16,17 +16,8 @@ NC='\033[0;37m'
 # ===================
 echo ''
 clear
-echo ''
-echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
-echo -e "$green.........................................................."$NC
-echo -e "                      Autoscript By ( Ghafoor Ali )      "$NC
-echo -e "                    CONTACT TELEGRAM"$t.me/ghafoorali    "$NC
-echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                                                         "$NC
-echo -e "$green.........................................................."$NC
-sleep 5
-clear
+
+
 if [ "${EUID}" -ne 0 ]; then
                 echo "You need to run this script as root"
                 exit 1

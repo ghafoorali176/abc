@@ -18,14 +18,14 @@ echo ''
 clear
 echo ''
 echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                ⚡ PREMIUM SPEED SCRIPT ⚡                "$NC
+echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
-echo -e "               Autoscript Mod By ( Kyt Project )" | lolcat
-echo -e "                    CONTACT TELEGRAM"$NC | lolcat
-echo -e "                       @Kytxz"$NC | lolcat
-echo -e "                       @rstorx"$NC | lolcat
+echo -e "                      Autoscript By ( Ghafoor Ali )
+echo -e "                    CONTACT TELEGRAM t.me/ghafoorali
+
+
 echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                       Tunggu 5 Detik!                    "$NC
+echo -e "$BGBLUE                            Ghafoor Ali VPN STORE
 echo -e "$green.........................................................."$NC
 sleep 5
 clear
@@ -47,38 +47,36 @@ clear
 # Valid Script
 VALIDITY() {
     today=$(date -d "0 days" +"%Y-%m-%d")
-    Exp1=$(curl https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $4}')
+    Exp1=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $4}')
     if [[ $today < $Exp1 ]]; then
         echo -e "\e[32mAUTOSCRIPT SUKSES..\e[0m"
         sleep 5
     else
-    echo -e "\e[31mScript Anda Telah Expired !!\e[0m";
-    echo -e "\e[31mTolong Renew Dengan Owner Script @tau_samawa\e[0m"
+    echo -e "\e[31mScript Had Has Been Expired !!\e[0m";
+    echo -e "\e[31mComtact To Renew Script Owner Telegram @t.me/ghafoorali\e[0m"
     exit 0
     fi
 }
-IZIN=$(curl https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | awk '{print $5}' | grep $MYIP)
+IZIN=$(curl https://raw.githubusercontent.com/ghafoorali/izinvps/ipuk/ip | awk '{print $5}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo -e "\e[32mPermohonan diterima...\e[0m"
     VALIDITY
 else
 echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                ⚡ PREMIUM SPEED SCRIPT ⚡                "$NC
+echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
-echo -e "$RED                PERMISSION DENIED/AKSES DITOLAK"$NC
-echo -e "               Autoscript Mod By ( Kyt Project )" | lolcat
-echo -e "                    CONTACT TELEGRAM"$NC | lolcat
-echo -e "                       @Kytxz"$NC | lolcat
-echo -e "                       @rstorx"$NC | lolcat
+echo -e "$RED                        PERMISSION DENIED
+echo -e "                       Autoscript By ( Ghafoor Ali )
+echo -e "                    CONTACT TELEGRAM t.me/ghafoorali
 echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                       Tunggu To Exit!                    "$NC
+echo -e "$BGBLUE                       Enter To Exit!                    "$NC
 echo -e "$green.........................................................."$NC
 sleep 3
     rm -f main.sh
     exit 0
 fi
 clear
-CLNAME=$(curl https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
+CLNAME=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
 if [ $MYIP = $CLNAME ]; then
 echo ""
 fi
@@ -89,7 +87,7 @@ clear
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
-REPO="https://raw.githubusercontent.com/myridwan/abc/ipuk/"
+REPO="https://raw.githubusercontent.com/ghafoorali176/abc/ipuk/"
 echo -e " [INFO] Downloading Update File" | lolcat
 sleep 2
 rm -rf /tmp/menu

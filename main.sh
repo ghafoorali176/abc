@@ -581,6 +581,8 @@ function finish(){
 <code>RAM       : </code><code>${RAMMS}MB</code>
 <code>LINUX     : </code><code>${OS}</code>
 <code>━━━━━━━━━━━━━━━━━━━━━</code>
+<i>⚠️Autoscript By Ghafoor Ali⚠️</i>
+<i>⚠️CONTACT TELEGRAM t.me/ghafoorali⚠️</i>
 <i>⚠️Thanks To Order Premium⚠️</i>
 <code>━━━━━━━━━━━━━━━━━━━━━</code>
 "

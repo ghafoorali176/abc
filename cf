@@ -3,13 +3,13 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 ns_domain_cloudflare1() {
-DOMAIN=sg-vpn.tk
+DOMAIN=slowdns.app
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.sg-vpn.tk
-CF_ID=ghafoorali175@gmail.com
-CF_KEY=7419dfd8b55b65b248aad6561ba1be4b6d667
-echo "rstore-vpn.cloud" > /root/domain
+SUB_DOMAIN=${sub}.slowdns.app
+CF_ID=nuryahyamuhaimin@gmail.com
+CF_KEY=9dd2f30c099dbcf541cbd5c188d61ce060cf7
+echo "slowdns.app" > /root/domain
 echo $SUB_DOMAIN > /root/domain
 
 set -euo pipefail

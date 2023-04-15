@@ -22,8 +22,6 @@ echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
 echo -e "                      Autoscript By ( Ghafoor Ali )
 echo -e "                    CONTACT TELEGRAM t.me/ghafoorali
-
-
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                            Ghafoor Ali VPN STORE
 echo -e "$green.........................................................."$NC

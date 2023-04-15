@@ -20,8 +20,8 @@ echo ''
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
-echo -e "                      Autoscript By ( Ghafoor Ali )
-echo -e "                    CONTACT TELEGRAM"$t.me/ghafoorali
+echo -e "                      Autoscript By ( Ghafoor Ali )      "$NC
+echo -e "                    CONTACT TELEGRAM"$t.me/ghafoorali    "$NC
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                                                         "$NC
 echo -e "$green.........................................................."$NC
@@ -64,8 +64,8 @@ echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
 echo -e "$green.........................................................."$NC
 echo -e "$RED                      PERMISSION DENIED"$NC
-echo -e "                      Autoscript By ( Ghafoor Ali )
-echo -e "                    CONTACT TELEGRAM t.me/ghafoorali
+echo -e "                      Autoscript By ( Ghafoor Ali ) "$NC
+echo -e "                    CONTACT TELEGRAM t.me/ghafoorali "$NC
 echo -e "$green.........................................................."$NC
 echo -e "$BGBLUE                       Enter To Exit!                    "$NC
 echo -e "$green.........................................................."$NC

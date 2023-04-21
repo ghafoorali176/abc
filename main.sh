@@ -16,9 +16,6 @@ NC='\033[0;37m'
 # ===================
 echo ''
 clear
-
-fi
-clear
 CLNAME=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
 if [ $MYIP = $CLNAME ]; then
 echo ""

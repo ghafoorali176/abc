@@ -36,7 +36,7 @@ clear
 # Valid Script
 VALIDITY() {
     today=$(date -d "0 days" +"%Y-%m-%d")
-    Exp1=$(curl https://raw.githubusercontent.com/ghafoorali17/izinvps/ipuk/ip | grep $MYIP | awk '{print $4}')
+    Exp1=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $4}')
     if [[ $today < $Exp1 ]]; then
         echo -e "\e[32mAUTOSCRIPT SUKSES..\e[0m"
         sleep 5
@@ -65,7 +65,7 @@ sleep 3
     exit 0
 fi
 clear
-CLNAME=$(curl https://raw.githubusercontent.com/ghafoorali17/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
+CLNAME=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
 if [ $MYIP = $CLNAME ]; then
 echo ""
 fi

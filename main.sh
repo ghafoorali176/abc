@@ -16,60 +16,6 @@ NC='\033[0;37m'
 # ===================
 echo ''
 clear
-
-
-if [ "${EUID}" -ne 0 ]; then
-                echo "You need to run this script as root"
-                exit 1
-fi
-if [ "$(systemd-detect-virt)" == "openvz" ]; then
-                echo "OpenVZ is not supported"
-                exit 1
-fi
-red='\e[1;31m'
-green='\e[0;32m'
-NC='\e[0m'
-#IZIN SCRIPT
-MYIP=$(curl -sS ipv4.icanhazip.com)
-echo -e "\e[32mloading...\e[0m"
-clear
-# Valid Script
-VALIDITY() {
-    today=$(date -d "0 days" +"%Y-%m-%d")
-    Exp1=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $4}')
-    if [[ $today < $Exp1 ]]; then
-        echo -e "\e[32mAUTOSCRIPT SUKSES..\e[0m"
-        sleep 5
-    else
-    echo -e "\e[31mScript Has Been Expired !!\e[0m";
-    echo -e "\e[31mContact to Renew Owner Script @t.me/ghafoorali\e[0m"
-    exit 0
-    fi
-}
-IZIN=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | awk '{print $5}' | grep $MYIP)
-if [ $MYIP = $IZIN ]; then
-echo -e "\e[32mPermohonan diterima...\e[0m"
-    VALIDITY
-else
-echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                ⚡ PREMIUM SUPER SCRIPT ⚡                "$NC
-echo -e "$green.........................................................."$NC
-echo -e "$RED                      PERMISSION DENIED"$NC
-echo -e "                      Autoscript By ( Ghafoor Ali ) "$NC
-echo -e "                    CONTACT TELEGRAM t.me/ghafoorali "$NC
-echo -e "$green.........................................................."$NC
-echo -e "$BGBLUE                       Enter To Exit!                    "$NC
-echo -e "$green.........................................................."$NC
-sleep 3
-    rm -f main.sh
-    exit 0
-fi
-clear
-CLNAME=$(curl https://raw.githubusercontent.com/ghafoorali176/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
-if [ $MYIP = $CLNAME ]; then
-echo ""
-fi
-clear
 echo -e "\e[32mloading...\e[0m"
 clear
 ### Color
